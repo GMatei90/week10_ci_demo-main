@@ -1,6 +1,7 @@
+def add(a, b):
+	"""Return the sum of two numbers."""
+	return a + b
 
-
-from calculator import add
-
-def test_add_two_numbers():
-    assert calculator.add(2, 3) == 5
+def subtract(a, b):
+	"""Return the difference of two numbers (a - b)."""
+	return a - b
